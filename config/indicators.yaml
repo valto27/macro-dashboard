@@ -1,0 +1,126 @@
+fred:
+  - id: GDPC1
+    name: "US Real GDP"
+    frequency: quarterly
+    category: growth
+
+  - id: CLVMNACSCAB1GQEA19
+    name: "Eurozone Real GDP"
+    frequency: quarterly
+    category: growth
+
+  - id: INDPRO
+    name: "US Industrial Production Index"
+    frequency: monthly
+    category: growth
+
+  - id: UNRATE
+    name: "US Unemployment Rate"
+    frequency: monthly
+    category: labor
+
+  - id: ICSA
+    name: "US Initial Jobless Claims"
+    frequency: weekly
+    category: labor
+
+  - id: LRHUTTTTEZM156S
+    name: "Eurozone Unemployment Rate"
+    frequency: monthly
+    category: labor
+
+  - id: CPIAUCSL
+    name: "US CPI YoY"
+    frequency: monthly
+    category: inflation
+
+  - id: PCEPI
+    name: "US PCE Deflator"
+    frequency: monthly
+    category: inflation
+
+  - id: CP0000EZ19M086NEST
+    name: "Eurozone CPI"
+    frequency: monthly
+    category: inflation
+
+  - id: T5YIE
+    name: "5Y Breakeven Inflation"
+    frequency: daily
+    category: inflation
+
+  - id: T10YIE
+    name: "10Y Breakeven Inflation"
+    frequency: daily
+    category: inflation
+
+  - id: FEDFUNDS
+    name: "Fed Funds Rate"
+    frequency: monthly
+    category: rates
+
+  - id: ECBDFR
+    name: "ECB Deposit Facility Rate"
+    frequency: daily
+    category: rates
+
+  - id: DGS2
+    name: "US Treasury 2Y Yield"
+    frequency: daily
+    category: rates
+
+  - id: DGS10
+    name: "US Treasury 10Y Yield"
+    frequency: daily
+    category: rates
+
+  - id: IRLTLT01DEM156N
+    name: "Germany Bund 10Y Yield"
+    frequency: monthly
+    category: rates
+
+  - id: BAMLC0A0CM
+    name: "US Investment Grade Spread"
+    frequency: daily
+    category: credit
+
+  - id: BAMLH0A0HYM2
+    name: "US High Yield Spread"
+    frequency: daily
+    category: credit
+
+  - id: TEDRATE
+    name: "TED Spread"
+    frequency: daily
+    category: credit
+
+yfinance:
+  - ticker: "^GSPC"
+    name: "S&P 500"
+    category: equity
+
+  - ticker: "^STOXX"
+    name: "STOXX Europe 600"
+    category: equity
+
+  - ticker: "EEM"
+    name: "MSCI Emerging Markets ETF"
+    category: equity
+
+  - ticker: "^VIX"
+    name: "VIX"
+    category: volatility
+
+  - ticker: "DX-Y.NYB"
+    name: "US Dollar Index (DXY)"
+    category: fx
+
+  - ticker: "GC=F"
+    name: "Gold Futures"
+    category: commodity
+
+  - ticker: "CL=F"
+    name: "WTI Crude Oil Futures"
+    category: commodity
+
+ecb: []

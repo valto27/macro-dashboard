@@ -1,0 +1,8 @@
+__pycache__/
+.env
+*.pkl
+.venv/
+venv/
+ENV/
+.streamlit/secrets.toml
+src/data/
